@@ -108,7 +108,7 @@ To properly configure your web app in Azure, you need to select an operating sys
 Note: If you don't see your App Service Plan, consider trying a different region or checking your App Service Environment settings.
 
 
-   ![VM Screenshot](images/9.png)
+   ![VM Screenshot](images/9.jpg)
 ## Configuring Pricing Plans for Azure Web App
 
 To configure the pricing plan for your web app in Azure, follow these steps:
@@ -201,7 +201,7 @@ This step is part of the process where you can configure additional resources fo
 
 
 
-   ![VM Screenshot](images/14.png)
+   ![VM Screenshot](images/14.jpg)
 
 
 ## Setting Up a Database in Azure
@@ -227,7 +227,7 @@ These steps will guide you through the process of setting up a database that can
 
 
 
-   ![VM Screenshot](images/15.png)
+   ![VM Screenshot](images/15.jpg)
 
 
 ## Setting Up Azure Cache for Redis
@@ -272,7 +272,7 @@ Before creating your web app in Azure, review your configurations and then proce
 This step finalizes the creation process and initiates the deployment of your web app in Azure.
 
 
-   ![VM Screenshot](images/19.png)
+   ![VM Screenshot](images/19.jpg)
    
 
 ## Review Web App Configuration
@@ -298,7 +298,7 @@ Confirm the details and proceed with the creation of your web app.
 - **Next Step**: After creation, the "Next >" button will lead you to additional setup options.
 
 
-   ![VM Screenshot](images/21.png)
+   ![VM Screenshot](images/21.jpeg)
 
 
 ## Deployment Process
