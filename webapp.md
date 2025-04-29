@@ -1,33 +1,5 @@
 # Creating a Web App in Azure
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Step-by-Step Guide](#step-by-step-guide)
-    - [1. Create an Azure Account](#1-create-an-azure-account)
-    - [2. Create a Resource Group](#2-create-a-resource-group)
-    - [3. Create a Web App](#3-create-a-web-app)
-    - [4. Configure the Web App](#4-configure-the-web-app)
-    - [5. Deploy Your Code](#5-deploy-your-code)
-4. [Testing the Web App](#testing-the-web-app)
-5. [Troubleshooting](#troubleshooting)
-6. [Conclusion](#conclusion)
-
-## Introduction
-This document provides a step-by-step guide on how to create a web app in Azure. Azure App Service is a fully managed platform as a service (PaaS) that enables you to build, deploy, and scale web applications.
-
----
-
-## Prerequisites
-- **Azure Account**: If you don't have one, you can [sign up for a free account](https://azure.microsoft.com/free/).
-- **Basic Knowledge**: Familiarity with web development and Azure services.
-- **Code Editor**: Visual Studio Code or any other preferred code editor.
-- **Git**: Ensure Git is installed on your local machine.
-
----
-
-## Step-by-Step Guide
-
 ### 1. Create an Azure Account
 If you don't already have an Azure account, you can sign up for a free account [here](https://azure.microsoft.com/free/). Follow the on-screen instructions to complete the sign-up process. The free account offers a variety of services and a $200 credit to explore Azure services for up to 30 days.
 
@@ -42,7 +14,7 @@ If you don't already have an Azure account, you can sign up for a free account [
 
 ---
 
-## Step-by-Step Guide (Continued)
+## Guide (Continued)
 
 ### 3. Create a Web App
 
