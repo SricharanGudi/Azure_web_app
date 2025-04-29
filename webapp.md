@@ -1,7 +1,7 @@
 # Creating a Web App in Azure
 
 ### 1. Create an Azure Account
-If you don't already have an Azure account, you can sign up for a free account [here](https://azure.microsoft.com/free/). Follow the on-screen instructions to complete the sign-up process. The free account offers a variety of services and a $200 credit to explore Azure services for up to 30 days.
+You can sign up for a free account [here](https://azure.microsoft.com/free/). Follow the on-screen instructions to complete the sign-up process. The free account offers a variety of services and a $200 credit to explore Azure services for up to 30 days.
 
 ### 2. Create a Resource Group
 1. **Log in to the Azure Portal**: Navigate to the [Azure portal](https://portal.azure.com/) and log in using your Azure account credentials.
@@ -13,8 +13,6 @@ If you don't already have an Azure account, you can sign up for a free account [
     - Click "Review + create" and then "Create".
 
 ---
-
-## Guide (Continued)
 
 ### 3. Create a Web App
 
@@ -148,11 +146,6 @@ When configuring your Azure web app, you need to choose an App Service plan that
     - Estimated cost: 12,389.35 INR/Month
     - Includes 195 ACU, 16 GB memory, 2 vCPUs
 
-- **Isolated V2 Plans**:
-  - **I1V2**: 
-    - Estimated cost: 24,353.58 INR/Month
-    - Includes 195 ACU, 8 GB memory, 2 vCPUs
-
 Choose the plan that best matches your app's performance and budget requirements.
 
 
@@ -184,7 +177,7 @@ During the setup of an Azure web app, you will encounter several navigation opti
    - Use this option to go back to the previous step in the setup process to make changes.
 
 3. **Next: Database**: 
-   - This button takes you to the next step, which involves setting up a database for your web app.
+   - This involves setting up a database for your web app.
 
 
    ![VM Screenshot](images/13.png)
@@ -214,13 +207,7 @@ To configure a database for your Azure web app, follow these steps:
 2. **Choose Database Engine**:
    - Select the database engine. In this case, `PostgreSQL - Flexible Server (recommended)` is chosen.
 
-3. **Specify Server Name**:
-   - Enter a unique name for the database server, e.g., `charan-server`.
-
-4. **Provide Database Name**:
-   - Name your database, for example, `charan-database`.
-
-5. **Optional: Create Azure Cache for Redis**:
+3. **Optional: Create Azure Cache for Redis**:
    - Optionally, you can check the box to create an Azure Cache for Redis to improve your app's performance.
 
 These steps will guide you through the process of setting up a database that can be used with your Azure web app.
@@ -238,7 +225,7 @@ To create an Azure Cache for Redis as part of your web app configuration, follow
    - Check the box to create a new Redis cache.
 
 2. **Name Your Cache**:
-   - Enter a unique name for your Redis cache, e.g., `charan`.
+   - Enter a unique name for your Redis cache, 
 
 3. **Choose the SKU**:
    - Select the pricing tier for your cache. In this example, the `Standard` SKU is chosen.
@@ -281,7 +268,7 @@ Before creating your web app, review the configuration details:
 
 - **Web App Plan**: 
   - Chosen plan is `Basic (B1) sku`.
-  - Estimated monthly cost is `1093.18 INR`.
+  - Estimated monthly cost.
 
 - **Authentication**:
   - A notification indicates that basic authentication is currently disabled, which may impact deployments.
@@ -304,22 +291,14 @@ Confirm the details and proceed with the creation of your web app.
 ## Deployment Process
 
 - **Status**: Deployment is currently in progress.
-- **Deployment Name**: Microsoft.Web-WebApp-Portal-e87126e2-8283
-- **Subscription**: Innova8 Training
-- **Resource Group**: charansh.charan7
 
 The deployment details can be viewed for more information on the progress and status of the deployment.
 
-
-   ![VM Screenshot](images/22.png)
    
 
 ## Deployment Completion
 
 - **Status**: Your deployment is complete.
-- **Deployment Name**: Microsoft.Web-WebApp-Portal-e87126e2-8283
-- **Subscription**: Innova8 Training
-- **Resource Group**: charansh.charan17
 
 You can now navigate to the resource to view your deployed web app.
 
@@ -327,13 +306,6 @@ You can now navigate to the resource to view your deployed web app.
 
    ![VM Screenshot](images/23.png)
 
-
-## Web App Deployment Details
-
-- **Default Domain**: charanwebo-a9hub8gjdxdvbucx.centralus-01.azurewebsites.net
-- **App Service Plan**: gg (B1: 1)
-- **Operating System**: Linux
-- **Health Check**: Not Configured
 
 This information provides an overview of the web app's configuration in Azure.
 
@@ -344,8 +316,4 @@ This information provides an overview of the web app's configuration in Azure.
 ## Web App Status
 
 - **Web App Status**: Your web app is running and waiting for your content.
-- **Content Deployment**: If you've already deployed, it may take up to 5 minutes for the content to appear.
-- **Built With**: The app is built with Python.
-- **Next Steps**:
-  - Use the [Deployment center](#) to publish code or set up continuous deployment.
-  - Follow the [Quickstart](#) guide to quickly get your web app ready.
+
