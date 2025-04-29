@@ -143,7 +143,7 @@ To configure the pricing plan for your web app in Azure, follow these steps:
 
 1. **Select App Service Plan**:
    - Choose an existing Linux Plan or create a new one.
-   - In the example, a new plan named "Giri" is selected.
+   - In the example, a new plan named "charan" is selected.
 
 2. **Choose Pricing Plan**:
    - Select the pricing plan that fits your app's requirements.
@@ -243,10 +243,10 @@ To configure a database for your Azure web app, follow these steps:
    - Select the database engine. In this case, `PostgreSQL - Flexible Server (recommended)` is chosen.
 
 3. **Specify Server Name**:
-   - Enter a unique name for the database server, e.g., `ggiri-server`.
+   - Enter a unique name for the database server, e.g., `charan-server`.
 
 4. **Provide Database Name**:
-   - Name your database, for example, `ggiri-database`.
+   - Name your database, for example, `charan-database`.
 
 5. **Optional: Create Azure Cache for Redis**:
    - Optionally, you can check the box to create an Azure Cache for Redis to improve your app's performance.
@@ -266,7 +266,7 @@ To create an Azure Cache for Redis as part of your web app configuration, follow
    - Check the box to create a new Redis cache.
 
 2. **Name Your Cache**:
-   - Enter a unique name for your Redis cache, e.g., `giri`.
+   - Enter a unique name for your Redis cache, e.g., `charan`.
 
 3. **Choose the SKU**:
    - Select the pricing tier for your cache. In this example, the `Standard` SKU is chosen.
@@ -364,7 +364,7 @@ Confirm the details and proceed with the creation of your web app.
 - **Status**: Deployment is currently in progress.
 - **Deployment Name**: Microsoft.Web-WebApp-Portal-e87126e2-8283
 - **Subscription**: Innova8 Training
-- **Resource Group**: girish.giri7
+- **Resource Group**: charansh.charan7
 
 The deployment details can be viewed for more information on the progress and status of the deployment.
 
@@ -377,7 +377,7 @@ The deployment details can be viewed for more information on the progress and st
 - **Status**: Your deployment is complete.
 - **Deployment Name**: Microsoft.Web-WebApp-Portal-e87126e2-8283
 - **Subscription**: Innova8 Training
-- **Resource Group**: girish.giri17
+- **Resource Group**: charansh.charan17
 
 You can now navigate to the resource to view your deployed web app.
 
@@ -388,7 +388,7 @@ You can now navigate to the resource to view your deployed web app.
 
 ## Web App Deployment Details
 
-- **Default Domain**: giriwebo-a9hub8gjdxdvbucx.centralus-01.azurewebsites.net
+- **Default Domain**: charanwebo-a9hub8gjdxdvbucx.centralus-01.azurewebsites.net
 - **App Service Plan**: gg (B1: 1)
 - **Operating System**: Linux
 - **Health Check**: Not Configured
