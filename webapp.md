@@ -278,36 +278,6 @@ These settings will configure a Redis cache that can be used to enhance your web
    ![VM Screenshot](images/16.png)
 
 
-## Continuous Deployment Settings
-
-To configure continuous deployment for your Azure web app:
-
-1. **Enable Continuous Deployment**:
-   - Choose the "Enable" option to set up continuous deployment.
-   - This allows easy deployment of code from your GitHub repository using GitHub Actions.
-
-By enabling this feature, you can automate the deployment process, ensuring that changes in your repository are automatically deployed to your web app.
-
-
-   ![VM Screenshot](images/17.png)
-
-
-## GitHub Deployment Settings
-
-To set up continuous deployment from a GitHub repository in Azure:
-
-1. **Select Organization**:
-   - Choose the GitHub organization where your repository is located, e.g., `mvMadhan`.
-
-2. **Choose Repository**:
-   - Select the specific repository you want to deploy, e.g., `Scrapy`.
-
-3. **Select Branch**:
-   - Choose the branch from which you want to deploy your code, e.g., `master`.
-
-These settings ensure that your Azure web app is updated automatically with the latest code from your specified GitHub repository and branch.
-
-
 
    ![VM Screenshot](images/18.png)
 
